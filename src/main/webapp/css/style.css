@@ -1,0 +1,106 @@
+.custom-bg{
+    background:black!important;
+}
+.admin .card{
+    border: 1px solid black;
+}
+.admin .card:hover{
+    background: #1976D2;
+    cursor: pointer;
+}
+.list-group-item-active{
+    background:#3f51b5!important;
+}
+
+
+
+.discount-label{
+    font-size: 10px!important;
+        font-style: italic!important;
+}
+img {
+  height: 40vh;
+}
+.list-group-item:hover{
+    background:black!important;
+    cursor: pointer;
+}
+.navbar{
+    max-height: 59px!important;
+}
+
+/* Style all font awesome icons */
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #8a3ab9;
+  color: white;
+}
+.fa-youtube {
+  background: #FF0000;
+  color: white;
+}
+.search-bar{
+    min-width: 560px!important;
+}
+
+/* toast msg */
+#toast {
+    min-width: 300px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -120px;
+    background: #333;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-size: 18px;
+    visibility: hidden;
+    box-shadow: 0px 0px 100px #000;
+}
+
+#toast.display {
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeout 0.5s 2.5s;
+}
+@keyframes fadeIn{
+    form {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+ 
